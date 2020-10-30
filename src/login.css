@@ -1,0 +1,68 @@
+body {
+  height: 100%;
+  /* background-color: rgba(6, 14, 82, 0.9); */
+}
+.logindiv {
+  height: 100vh;
+  background-color: rgba(6, 14, 82, 0.2);
+}
+.login {
+  height: 60%;
+  padding: 10rem;
+  background-color: rgba(6, 14, 82, 0.5);
+  border: rgba(6, 14, 82, 1) solid 7px;
+  border-radius: 100px;
+}
+.log {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  color: rgba(105, 0, 0, 1);
+  border-bottom: rgba(110, 2, 2, 0.9) dashed 5px;
+  border-radius: 5px;
+}
+.input {
+  background-color: rgba(190, 202, 237, 1);
+  border: rgba(99, 0, 10, 0.8) inset 7px;
+  border-radius: 5px;
+  transition: all 1s;
+}
+.input:hover {
+  border: rgba(160, 168, 8, 0.8) outset 7px;
+}
+.input:focus {
+  border: rgba(6, 99, 25, 0.8) outset 7px;
+  background-color: rgb(122, 152, 241);
+}
+.logbut {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  background-color: rgba(88, 2, 125, 0.5);
+  align-self: center;
+  border-radius: 1em;
+  border-style: solid;
+  border-color: rgba(45, 0, 64, 1);
+  color: white;
+  transition: 0.5s all;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.logbut:hover {
+  background-color: rgba(130, 9, 0, 0.5);
+  color: rgb(26, 0, 37);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.errormsg {
+  font-family: "Orbitron", sans-serif;
+  color: rgba(235, 16, 0, 1);
+  font-weight: bold;
+  border: rgba(130, 9, 0, 0.5) dashed 3px;
+}
+
+.cred {
+  padding: 1rem;
+  position: fixed;
+  color: rgb(63, 64, 62);
+  border: rgb(63, 64, 62) dashed 1px;
+}
